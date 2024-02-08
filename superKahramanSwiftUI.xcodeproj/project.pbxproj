@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		52FBD9E82B73AE7400611AE5 /* superKahramanSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD9E72B73AE7400611AE5 /* superKahramanSwiftUIApp.swift */; };
-		52FBD9EA2B73AE7400611AE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD9E92B73AE7400611AE5 /* ContentView.swift */; };
+		52FBD9EA2B73AE7400611AE5 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD9E92B73AE7400611AE5 /* ListView.swift */; };
 		52FBD9EC2B73AE7600611AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FBD9EB2B73AE7600611AE5 /* Assets.xcassets */; };
 		52FBD9EF2B73AE7600611AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FBD9EE2B73AE7600611AE5 /* Preview Assets.xcassets */; };
+		52FBD9F62B73AEE500611AE5 /* Heros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD9F52B73AEE500611AE5 /* Heros.swift */; };
+		52FBD9F82B73C8D000611AE5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD9F72B73C8D000611AE5 /* MapView.swift */; };
+		52FBD9FA2B73CDDF00611AE5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD9F92B73CDDF00611AE5 /* DetailView.swift */; };
+		52FBD9FC2B73CF6600611AE5 /* imageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD9FB2B73CF6600611AE5 /* imageView.swift */; };
+		52FBD9FE2B753FC900611AE5 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBD9FD2B753FC900611AE5 /* ListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52FBD9E42B73AE7400611AE5 /* superKahramanSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superKahramanSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FBD9E72B73AE7400611AE5 /* superKahramanSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superKahramanSwiftUIApp.swift; sourceTree = "<group>"; };
-		52FBD9E92B73AE7400611AE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52FBD9E92B73AE7400611AE5 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		52FBD9EB2B73AE7600611AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52FBD9EE2B73AE7600611AE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52FBD9F52B73AEE500611AE5 /* Heros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heros.swift; sourceTree = "<group>"; };
+		52FBD9F72B73C8D000611AE5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		52FBD9F92B73CDDF00611AE5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		52FBD9FB2B73CF6600611AE5 /* imageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageView.swift; sourceTree = "<group>"; };
+		52FBD9FD2B753FC900611AE5 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				52FBD9E72B73AE7400611AE5 /* superKahramanSwiftUIApp.swift */,
-				52FBD9E92B73AE7400611AE5 /* ContentView.swift */,
+				52FBD9E92B73AE7400611AE5 /* ListView.swift */,
 				52FBD9EB2B73AE7600611AE5 /* Assets.xcassets */,
 				52FBD9ED2B73AE7600611AE5 /* Preview Content */,
+				52FBD9F52B73AEE500611AE5 /* Heros.swift */,
+				52FBD9F72B73C8D000611AE5 /* MapView.swift */,
+				52FBD9F92B73CDDF00611AE5 /* DetailView.swift */,
+				52FBD9FB2B73CF6600611AE5 /* imageView.swift */,
+				52FBD9FD2B753FC900611AE5 /* ListRowView.swift */,
 			);
 			path = superKahramanSwiftUI;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FBD9EA2B73AE7400611AE5 /* ContentView.swift in Sources */,
+				52FBD9EA2B73AE7400611AE5 /* ListView.swift in Sources */,
+				52FBD9FE2B753FC900611AE5 /* ListRowView.swift in Sources */,
+				52FBD9F82B73C8D000611AE5 /* MapView.swift in Sources */,
 				52FBD9E82B73AE7400611AE5 /* superKahramanSwiftUIApp.swift in Sources */,
+				52FBD9FA2B73CDDF00611AE5 /* DetailView.swift in Sources */,
+				52FBD9FC2B73CF6600611AE5 /* imageView.swift in Sources */,
+				52FBD9F62B73AEE500611AE5 /* Heros.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
